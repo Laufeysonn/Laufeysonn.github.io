@@ -66,4 +66,3 @@ ny_noaa %>%
           colors = "viridis", color = ~year) %>%
   layout(xaxis = list(title = "Year"), yaxis = list(title = "Average Percipitation"))
 ```
-
