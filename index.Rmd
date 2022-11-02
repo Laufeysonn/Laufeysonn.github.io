@@ -1,0 +1,12 @@
+---
+title: "Jingyi Tian"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+## Introduction of the website
+
+Welcome to Jingyi Tian's personal website! 
