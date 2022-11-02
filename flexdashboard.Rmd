@@ -1,0 +1,55 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+data("ny_noaa")
+ny_noaa <- ny_noaa %>%
+  janitor::clean_names() %>%
+  separate(date, into = c('year', 'month', 'day'), sep = "-") %>%
+  mutate(
+    tmax = as.numeric(tmax)/10,
+    tmin = as.numeric(tmin)/10,
+    prcp = prcp/10,
+    year = as.numeric(year),
+    month = as.numeric(month),
+    day = as.numeric(day)
+    ) %>% 
+  filter(year %in% 2005:2010,
+         month %in% c(12,1,2)) %>% 
+  drop_na() %>% 
+  sample_n(8000)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
