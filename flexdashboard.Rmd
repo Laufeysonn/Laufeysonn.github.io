@@ -39,7 +39,9 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-
+ny_noaa %>% 
+  plot_ly(x = ~tmin, y = ~tmax, type = "scatter", mode = "markers",
+          alpha = .6, colors = "viridis", color = ~year) 
 ```
 
 Column {data-width=350}
