@@ -10,3 +10,11 @@ output:
 ## Introduction of the website
 
 Welcome to Jingyi Tian's personal website! 
+
+I am currently a graduate student in Columbia University Mailman School of Public Health. I come from China, and I enjoy watching movies and drawing in my spare time. Feel free to explore more about my academic and professional experience here: [Experience](experience.html)
+
+This page is for the flexdashboard containing visualization of a dataset: [Dashboard](flexdashboard.html)
+
+<center>
+<img src="images/columbia campus.jpg" style="width:100%">
+</center>
