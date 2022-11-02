@@ -8,3 +8,50 @@ output:
 ---
 
 ### Academic experience
+
+**Renmin University of China, Beijing, China   (09/2018 – 06/2022) **
+
+B.S. in Statistics, GPA 3.75 / 4.0
+
+Coursework: Time Series Analysis, Regression, Statistical Computing, Experimental Design
+
+**Columbia University, New York, The United States   (09/2022 – 05/2024)**
+
+M.S. in Biostatistics
+
+Coursework: Biostatistical Methods, Data Science, Epidemiology
+
+### Research Experience
+
+**Digital Economy & Business Collaboration Lab, RUC, Beijing, China   (03/2021 – 06/2022)**
+
+NSFC-NRF funded international project – Research Assistant
+
+-	Collected data on COVID-19 epidemic risk perception of people living near India
+-	Depicted data distribution and common ideas by radar graphs, histograms, and word cloud 
+-	Found 60% people held positive attitude by sentimental analysis
+-	Illustrated high risk perception level by the signed-rank Wilcoxon test
+
+Collaborative Process Optimization Methods Patent – Research Assistant
+
+-	Applied Word2vec and used TF-IDF as weight to construct sentence vector model
+-	Calculated cosine similarity to exclude irrelevant opinions and used the K-means clustering algorithm to pick out representative ideas
+
+### Work Experience
+
+**Kantar Retail Management Consulting (Shanghai) Co., Ltd., Shanghai, China   (07/2021 – 09/2021)**
+
+Data Analysis Intern
+
+CR Jiangzhong Pharmaceutical Group Co. project
+
+-	Described sales distribution among provinces and monthly sales trend
+-	Analyzed the main competing products and the change in market supply and demand
+-	Studied the change in consuming behavior and put forward suggestions for the company
+
+Merck Sharp & Dohme Corp. project
+
+-	Designed thorough questionnaires for the allergic rhinitis and asthma patients
+-	Participated in the analysis framework and process design and defined key factors of patients’ behaviors
+-	Uncovered shopping journey and decision-making process in pharmacy
+-	Produced the final PPT about the treatment journey of the patients
