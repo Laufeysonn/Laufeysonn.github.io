@@ -1,0 +1,18 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Experience"
+      href: experience.html
+    - text: "Dashboard"
+      href: flexdashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<jt3387@columbia.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/Laufeysonn/
+    - icon: fab fa-linkedin
+      href: https://www.linkedin.com/in/jingyi-tian-7a9506255/
+output:
+  html_document:
+    theme: flatly
