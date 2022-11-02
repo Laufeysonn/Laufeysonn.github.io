@@ -14,11 +14,6 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-Column {data-width=650}
------------------------------------------------------------------------
-
-### Chart A
-
 ```{r}
 data("ny_noaa")
 ny_noaa <- ny_noaa %>%
@@ -36,6 +31,15 @@ ny_noaa <- ny_noaa %>%
          month %in% c(12,1,2)) %>% 
   drop_na() %>% 
   sample_n(8000)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
 ```
 
 Column {data-width=350}
