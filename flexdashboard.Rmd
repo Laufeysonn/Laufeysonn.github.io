@@ -59,6 +59,11 @@ ny_noaa %>%
 ### Chart C
 
 ```{r}
-
+ny_noaa %>% 
+  group_by(year)%>%
+  summarise(avg_prcp = mean(prcp)) %>%
+  plot_ly(x = ~year, y = ~avg_prcp, type = "bar", mode = "markers",
+          colors = "viridis", color = ~year) %>%
+  layout(xaxis = list(title = "Year"), yaxis = list(title = "Average Percipitation"))
 ```
 
