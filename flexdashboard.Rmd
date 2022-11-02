@@ -41,7 +41,8 @@ Column {data-width=650}
 ```{r}
 ny_noaa %>% 
   plot_ly(x = ~tmin, y = ~tmax, type = "scatter", mode = "markers",
-          alpha = .6, colors = "viridis", color = ~year) 
+          alpha = .6, colors = "viridis", color = ~year) %>% 
+  layout(xaxis = list(title = "Minimum temperature (degrees C)"), yaxis = list(title = "Maximum temperature (degrees C)"))
 ```
 
 Column {data-width=350}
@@ -50,7 +51,9 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
-
+ny_noaa %>%
+  plot_ly(x = ~year, y = ~snwd, type = "box", colors = "viridis", fillcolor = ~year) %>%
+  layout(xaxis = list(title = "Year"), yaxis = list(title = "Snow Depth"))
 ```
 
 ### Chart C
