@@ -36,7 +36,7 @@ ny_noaa <- ny_noaa %>%
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Scatterplot of tmin and tmax
+### Trend of tmin and tmax
 
 ```{r}
 ny_noaa %>% 
@@ -48,7 +48,7 @@ ny_noaa %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Box plot of snow depth from 2005 to 2012
+### Distribution of snow depth from 2005 to 2012
 
 ```{r}
 ny_noaa %>%
@@ -56,7 +56,7 @@ ny_noaa %>%
   layout(xaxis = list(title = "Year"), yaxis = list(title = "Snow Depth"))
 ```
 
-### Bar plot of average percipitation from 2005 to 2012
+### Average percipitation from 2005 to 2012
 
 ```{r}
 ny_noaa %>% 
