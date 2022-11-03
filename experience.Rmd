@@ -7,7 +7,7 @@ output:
     theme: cerulean
 ---
 
-### Academic experience
+### Academic Experience
 
 **Renmin University of China, Beijing, China   (09/2018 – 06/2022) **
 
