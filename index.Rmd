@@ -15,6 +15,8 @@ I am currently a graduate student in Columbia University Mailman School of Publi
 
 This page is for the flexdashboard containing visualization of a dataset: [Dashboard](flexdashboard.html)
 
+You can also find my [Github](https://github.com/Laufeysonn/) page and [Linkedin](https://www.linkedin.com/in/jingyi-tian-7a9506255/) page here.
+
 <center>
 <img src="images/columbia campus.jpg" style="width:100%">
 </center>
